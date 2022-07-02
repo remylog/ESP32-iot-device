@@ -6,13 +6,13 @@ extern "C" {
 }
 #include <AsyncMqttClient.h>
 
-#define WIFI_SSID "aterm-f9e656"
-#define WIFI_PASSWORD "3dbc77999c566"
+#define WIFI_SSID "xxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxx"
 
 // Windows Mosquitto MQTT ブローカーのノード レッド
 //#define MQTT_HOST IPAddress(192, 168, 29, 33)
 //クラウド MQTT ブローカーの場合は、ドメイン名を入力します。
-#define MQTT_HOST "mqtt.iot.remylog.com"
+#define MQTT_HOST "mqtt.iot.xxxxxxxx.com"
 #define MQTT_PORT 1883
 
 // 温度 MQTT トピックス
